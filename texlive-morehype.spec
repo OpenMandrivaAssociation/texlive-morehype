@@ -1,3 +1,9 @@
+# revision 24369
+# category Package
+# catalog-ctan /macros/latex/contrib/morehype
+# catalog-date 2011-10-23 21:21:29 +0200
+# catalog-license lppl1.3
+# catalog-version undef
 Name:		texlive-morehype
 Version:	20111023
 Release:	1
@@ -69,6 +75,7 @@ expanding LaTeX macros, using the fifinddo package.
 %doc %{_texmfdistdir}/source/latex/morehype/hypertoc.tex
 %doc %{_texmfdistdir}/source/latex/morehype/srcfiles.tex
 %doc %{_texmfdistdir}/source/latex/morehype/texlinks.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -79,3 +86,5 @@ expanding LaTeX macros, using the fifinddo package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
