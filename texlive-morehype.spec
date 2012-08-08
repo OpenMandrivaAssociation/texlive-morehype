@@ -1,12 +1,12 @@
-# revision 24369
+# revision 26758
 # category Package
 # catalog-ctan /macros/latex/contrib/morehype
-# catalog-date 2011-10-23 21:21:29 +0200
+# catalog-date 2012-05-30 14:24:48 +0200
 # catalog-license lppl1.3
 # catalog-version undef
 Name:		texlive-morehype
-Version:	20111023
-Release:	2
+Version:	20120530
+Release:	1
 Summary:	Hypertext tools for use with LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/morehype
@@ -37,6 +37,7 @@ expanding LaTeX macros, using the fifinddo package.
 
 #-----------------------------------------------------------------------
 %files
+%{_texmfdistdir}/tex/latex/morehype/atari_ht.fdf
 %{_texmfdistdir}/tex/latex/morehype/blog.sty
 %{_texmfdistdir}/tex/latex/morehype/blogdot.cfg
 %{_texmfdistdir}/tex/latex/morehype/blogdot.css
@@ -45,6 +46,7 @@ expanding LaTeX macros, using the fifinddo package.
 %{_texmfdistdir}/tex/latex/morehype/lang-de.fdf
 %{_texmfdistdir}/tex/latex/morehype/lang-en.fdf
 %{_texmfdistdir}/tex/latex/morehype/lnavicol.sty
+%{_texmfdistdir}/tex/latex/morehype/morehype.RLS
 %{_texmfdistdir}/tex/latex/morehype/texblog.fdf
 %{_texmfdistdir}/tex/latex/morehype/texlinks.sty
 %doc %{_texmfdistdir}/doc/latex/morehype/README
@@ -65,6 +67,7 @@ expanding LaTeX macros, using the fifinddo package.
 %doc %{_texmfdistdir}/source/latex/morehype/hypertoc.tex
 %doc %{_texmfdistdir}/source/latex/morehype/srcfiles.tex
 %doc %{_texmfdistdir}/source/latex/morehype/texlinks.tex
+%doc %{_texmfdistdir}/source/latex/morehype/upsfl.sh
 
 #-----------------------------------------------------------------------
 %prep
