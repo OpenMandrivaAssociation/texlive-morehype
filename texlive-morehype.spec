@@ -1,11 +1,11 @@
-# revision 26758
+# revision 28921
 # category Package
 # catalog-ctan /macros/latex/contrib/morehype
-# catalog-date 2012-05-30 14:24:48 +0200
+# catalog-date 2013-01-23 12:31:43 +0100
 # catalog-license lppl1.3
 # catalog-version undef
 Name:		texlive-morehype
-Version:	20120530
+Version:	20130123
 Release:	1
 Summary:	Hypertext tools for use with LaTeX
 Group:		Publishing
@@ -40,12 +40,12 @@ expanding LaTeX macros, using the fifinddo package.
 %{_texmfdistdir}/tex/latex/morehype/atari_ht.fdf
 %{_texmfdistdir}/tex/latex/morehype/blog.sty
 %{_texmfdistdir}/tex/latex/morehype/blogdot.cfg
-%{_texmfdistdir}/tex/latex/morehype/blogdot.css
 %{_texmfdistdir}/tex/latex/morehype/blogdot.sty
+%{_texmfdistdir}/tex/latex/morehype/blogexec.sty
+%{_texmfdistdir}/tex/latex/morehype/blogligs.sty
 %{_texmfdistdir}/tex/latex/morehype/hypertoc.sty
-%{_texmfdistdir}/tex/latex/morehype/lang-de.fdf
-%{_texmfdistdir}/tex/latex/morehype/lang-en.fdf
 %{_texmfdistdir}/tex/latex/morehype/lnavicol.sty
+%{_texmfdistdir}/tex/latex/morehype/markblog.sty
 %{_texmfdistdir}/tex/latex/morehype/morehype.RLS
 %{_texmfdistdir}/tex/latex/morehype/texblog.fdf
 %{_texmfdistdir}/tex/latex/morehype/texlinks.sty
@@ -54,20 +54,29 @@ expanding LaTeX macros, using the fifinddo package.
 %doc %{_texmfdistdir}/doc/latex/morehype/RELEASEs.txt
 %doc %{_texmfdistdir}/doc/latex/morehype/SrcFILEs.txt
 %doc %{_texmfdistdir}/doc/latex/morehype/blog.pdf
-%doc %{_texmfdistdir}/doc/latex/morehype/demo/texblog/makehtml.tex
-%doc %{_texmfdistdir}/doc/latex/morehype/demo/texblog/texmap.tex
-%doc %{_texmfdistdir}/doc/latex/morehype/demo/writings/makehtml.tex
-%doc %{_texmfdistdir}/doc/latex/morehype/demo/writings/schreibt.tex
-%doc %{_texmfdistdir}/doc/latex/morehype/demo/writings/writings.fdf
+%doc %{_texmfdistdir}/doc/latex/morehype/blogdemo/hellowor/hellowor.htm
+%doc %{_texmfdistdir}/doc/latex/morehype/blogdemo/hellowor/hellowor.tex
+%doc %{_texmfdistdir}/doc/latex/morehype/blogdemo/hellowor/mkhellow.tex
+%doc %{_texmfdistdir}/doc/latex/morehype/blogdemo/writings/makehtml.tex
+%doc %{_texmfdistdir}/doc/latex/morehype/blogdemo/writings/schreibt.tex
+%doc %{_texmfdistdir}/doc/latex/morehype/blogdemo/writings/writings.fdf
+%doc %{_texmfdistdir}/doc/latex/morehype/blogexec.pdf
 %doc %{_texmfdistdir}/doc/latex/morehype/hypertoc.pdf
+%doc %{_texmfdistdir}/doc/latex/morehype/markblog.htm
+%doc %{_texmfdistdir}/doc/latex/morehype/ref_alts.tex
 %doc %{_texmfdistdir}/doc/latex/morehype/texlinks.pdf
+%doc %{_texmfdistdir}/doc/latex/morehype/wiki_mwe.pdf
+%doc %{_texmfdistdir}/doc/latex/morehype/wiki_mwe.tex
 #- source
 %doc %{_texmfdistdir}/source/latex/morehype/README.tex
 %doc %{_texmfdistdir}/source/latex/morehype/blog.tex
+%doc %{_texmfdistdir}/source/latex/morehype/blogdot.css
+%doc %{_texmfdistdir}/source/latex/morehype/blogexec.tex
+%doc %{_texmfdistdir}/source/latex/morehype/fdatechk.tex
 %doc %{_texmfdistdir}/source/latex/morehype/hypertoc.tex
+%doc %{_texmfdistdir}/source/latex/morehype/markblog.tex
 %doc %{_texmfdistdir}/source/latex/morehype/srcfiles.tex
 %doc %{_texmfdistdir}/source/latex/morehype/texlinks.tex
-%doc %{_texmfdistdir}/source/latex/morehype/upsfl.sh
 
 #-----------------------------------------------------------------------
 %prep
