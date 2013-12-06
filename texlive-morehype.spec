@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-morehype
 Version:	20130123
-Release:	2
+Release:	3
 Summary:	Hypertext tools for use with LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/morehype
