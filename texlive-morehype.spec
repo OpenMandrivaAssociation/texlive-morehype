@@ -1,6 +1,6 @@
 Name:		texlive-morehype
 Version:	38815
-Release:	1
+Release:	2
 Summary:	Hypertext tools for use with LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/morehype
