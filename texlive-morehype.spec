@@ -3,7 +3,7 @@ Version:	38815
 Release:	2
 Summary:	Hypertext tools for use with LaTeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/morehype
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/morehype
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/morehype.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/morehype.doc.r%{version}.tar.xz
